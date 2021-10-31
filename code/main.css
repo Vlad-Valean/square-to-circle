@@ -1,0 +1,30 @@
+html{
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    width: 75%;
+    margin:0 auto;
+}
+
+.parent{
+    height:200px;
+    width:200px;
+    margin:25% auto;
+}
+
+.object{
+    background-color: red;
+    width: 200px;
+    height:200px;
+    transition: background-color 0.5s, border-radius 0.5s;
+}
+
+.parent:hover .object{
+    background-color: blue;
+    border-radius: 50%;
+}
+
